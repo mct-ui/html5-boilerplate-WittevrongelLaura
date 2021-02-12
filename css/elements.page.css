@@ -5,7 +5,12 @@
 */
 
 html {
-
+  font-size: 16px;
+  line-height: 1.5;
+  font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+  color: #111;
+  padding: 24px 24px 0 24px;
+  /*top right bottom left dus shorthand voor 24px 24px 0 24 px */
 }
 
 /*
@@ -16,9 +21,28 @@ html {
  */
 
 ::-moz-selection {
-
+  background: #44c8f5;
+  color: white;
 }
 
 ::selection {
+  background: #44c8f5;
+  color: white;
+}
 
+body {
+  max-width: 42em;
+  /*42*rootfontgrootte en dat is hier 16 px*/
+  margin: 0 auto;
+  /*1e is boven onder, 2e is links rechts*/
+}
+
+/*
+    Elements: Images
+    ---
+    Default markup for images to make them responsive
+*/
+img {
+  max-width: 100%;
+  vertical-align: top;
 }
