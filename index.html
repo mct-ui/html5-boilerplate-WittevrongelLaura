@@ -17,6 +17,9 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/screen.css">
     <link rel="stylesheet" href="css/elements.page.css">
+    <link rel="stylesheet" href="css/elements.images.css">
+    <link rel="stylesheet" href="css/elements.typography.css">
+    <link rel="stylesheet" href="css/media-queries.css">
     
   </head>
   <body>
@@ -24,23 +27,36 @@
       <h1>Hello world! This is my HTML5 boilerplate.</h1>
       <p>A Boilerplate helps you build fast, robust, and adaptable web apps or sites. Kick-start your project with the combined knowledge and effort of 100s of developers, all in one little package.</p>
     </header>
-    <h2>Heading 2</h2>
+    <nav>
+      <ul>
+        <li><a href="">Heading 2</a></li>
+        <li><a href="">Heading 3</a></li>
+        <li><a href="">Lists</a></li>
+        <li><a href="">Table</a></li>
+      </ul>
+    </nav>
+    <h2 id="heading2">Heading 2</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. This is a <a href="test.com">standard link</a> distinctio facilis excepturi, reprehenderit pariatur odit, velit mollitia saepe impedit reiciendis omnis quasi sed, facere quo nobis a blanditiis.</p>
-    <h3>Heading 3</h3>
+    <h3 id="heading3">Heading 3</h3>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. This is a <a href="https://www.google.com">visited link</a> hic nemo dicta dignissimos dolorum obcaecati nobis tenetur laudantium iusto quibusdam vero velit magnam quam quas! Iure nobis minima accusamus fuga.</p>
     <blockquote cite="http://www.htmldog.com/reference/htmltags/blockquote/">
       <p>A blockquote is a large quotation. The content of a blockquote element must include block-level elements such as headings, lists, paragraphs or div’s. This element can also have an optional attribute cite that specifies the location (in the form of a URI) where the quote has come from.</p>
     </blockquote>
-    <h3>Styling lists is easy</h3>
+    <h3 id="lists">Styling lists is easy</h3>
     <p>Add an unorderd list with 3 list items here</p>
-    <table>
+    <ul>
+      <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore, debitis.</li>
+      <li>Impedit id exercitationem, perspiciatis unde veniam deleniti nobis architecto nesciunt.</li>
+      <li>Modi facilis voluptates commodi neque ducimus? Ratione recusandae omnis voluptatem?</li>
+    </ul>
+    <table id="table">
       <tr>
         <th>Country</th>
         <th>Capital</th>
         <th>Population</th>
         <th>Language</th>
       </tr>
-      <tr>
+      <tr class="odd">
         <td>Usa</td>
         <td>Washington DC</td>
         <td>309mio</td>
@@ -52,7 +68,7 @@
         <td>9mio</td>
         <td>Swedish</td>
       </tr>
-      <tr>
+      <tr class="odd">
         <td>France</td>
         <td>Paris</td>
         <td>10mio</td>
@@ -71,9 +87,10 @@
         <!--figcaption: van wie is de foto?-->
       </img>
     </figure>
+    
     <hr />
     <footer>
-      <p>By <strong>Your name</strong></p>
+      <p>By <strong>Laura Wittevrongel</strong></p>
     </footer>
   </body>
 </html>

@@ -11,6 +11,7 @@ html {
   color: #111;
   padding: 24px 24px 0 24px;
   /*top right bottom left dus shorthand voor 24px 24px 0 24 px */
+  scroll-behavior: smooth;
 }
 
 /*
@@ -37,12 +38,3 @@ body {
   /*1e is boven onder, 2e is links rechts*/
 }
 
-/*
-    Elements: Images
-    ---
-    Default markup for images to make them responsive
-*/
-img {
-  max-width: 100%;
-  vertical-align: top;
-}
